@@ -14,9 +14,9 @@ public class GameManager : MonoBehaviour
     public int CurrentDay = 1;
     
     [Header("Spawn Locations")]
-    public Transform Keep_Spawn;
-    public Transform[] Wall_Spawn;
-    public Transform[] Tower_Spawn;
-    public Transform[] Spike_Spawn;
+    public Transform Keep_Spawn; //Only one Keep 'Camp' area.
+    public Transform[] Wall_Spawn; //All spawn locations for Walls
+    public Transform[] Tower_Spawn; // ^
+    public Transform[] Spike_Spawn; // ^ Same
     
 }
