@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Player data")] 
+    public bool PlayerIsAlive;
+    
+    [Header("NPC data")] 
+    public bool npcBool;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Game data")] 
+    public int CurrentDay = 1;
+    
+    [Header("Spawn Locations")]
+    public Transform Keep_Spawn;
+    public Transform[] Wall_Spawn;
+    public Transform[] Tower_Spawn;
+    public Transform[] Spike_Spawn;
+    
 }
