@@ -40,19 +40,6 @@ public class TowerBuildTrigger : MonoBehaviour
             {
                 Debug.Log("No action");
             }
-
-            /* if (_gameManager.currentTowerTier == 1)
-             {
-                 tier1Tower.SetActive(true);
-             }
-             if (_gameManager.currentTowerTier == 2)
-             {
-                 tier2Tower.SetActive(true);
-             }
-             if (_gameManager.currentTowerTier == 3)
-             {
-                 tier3Tower.SetActive(true);
-             }*/
         }
         
     }

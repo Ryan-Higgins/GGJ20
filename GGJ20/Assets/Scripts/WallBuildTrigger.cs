@@ -40,19 +40,6 @@ public class WallBuildTrigger : MonoBehaviour
             {
                 Debug.Log("No action");
             }
-
-            /* if (_gameManager.currentWallTier == 1)
-             {
-                 tier1Wall.SetActive(true);
-             }
-             if (_gameManager.currentWallTier == 2)
-             {
-                 tier2Wall.SetActive(true);
-             }
-             if (_gameManager.currentWallTier == 3)
-             {
-                 tier3Wall.SetActive(true);
-             }*/
         }
         
     }

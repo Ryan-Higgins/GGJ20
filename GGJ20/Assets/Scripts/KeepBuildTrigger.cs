@@ -40,19 +40,6 @@ public class KeepBuildTrigger : MonoBehaviour
             {
                 Debug.Log("No action");
             }
-
-            /* if (_gameManager.currentKeepTier == 1)
-             {
-                 tier1Keep.SetActive(true);
-             }
-             if (_gameManager.currentKeepTier == 2)
-             {
-                 tier2Keep.SetActive(true);
-             }
-             if (_gameManager.currentKeepTier == 3)
-             {
-                 tier3Keep.SetActive(true);
-             }*/
         }
         
     }
