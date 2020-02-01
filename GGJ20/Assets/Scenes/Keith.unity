@@ -2097,6 +2097,7 @@ GameObject:
   - component: {fileID: 518930668}
   - component: {fileID: 518930667}
   - component: {fileID: 518930666}
+  - component: {fileID: 518930669}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2169,6 +2170,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &518930669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518930665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e00cae736fc1c9e45bc96410ed3f2cf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1435757758}
 --- !u!1 &523046831
 GameObject:
   m_ObjectHideFlags: 0
@@ -6789,6 +6803,12 @@ MonoBehaviour:
   tier2Wall: {fileID: 1797422195}
   tier3Wall: {fileID: 1196214646}
   _gameManager: {fileID: 0}
+--- !u!4 &1435757758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1993660468700615812, guid: 682dee384c1a397458de3ff6d041aa59,
+    type: 3}
+  m_PrefabInstance: {fileID: 8651933308739263231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1441256674
 GameObject:
   m_ObjectHideFlags: 0
@@ -7368,6 +7388,7 @@ MonoBehaviour:
   PlayerIsAlive: 0
   PlayerHealth: 100
   npcBool: 0
+  currentWave: 1
   CurrentDay: 1
   TimeOfDay: 0
   CurrentTowerTier: 1
@@ -7376,28 +7397,6 @@ MonoBehaviour:
   CurrentWallTier: 1
   Currency: 0
   AmountOfFortifications: 0
-  Tier1KeepOUTLINE: {fileID: 4533101170829728841, guid: 29363b1a0a0406d478c2cbdb7aba553e,
-    type: 3}
-  Tier2KeepOUTLINE: {fileID: 3352585893522595869, guid: 61e7eaea3ddeecd488454a28a14f8146,
-    type: 3}
-  Tier3KeepOUTLINE: {fileID: 4639372901474367864, guid: 888ce29947a33fe448c877c7630d2022,
-    type: 3}
-  Tier1WallOUTLINE: {fileID: 3786356371039633886, guid: 7a084ae138538584ea25fbace1e1d2a8,
-    type: 3}
-  Tier2WallOUTLINE: {fileID: 3494816517176282094, guid: 1ad63de2f2bb3bb40b09691df88c97b4,
-    type: 3}
-  Tier3WallOUTLINE: {fileID: 70474107069724439, guid: cb95030245a78334abd1c911be568713,
-    type: 3}
-  Tier1TowerOUTLINE: {fileID: 0}
-  Tier2TowerOUTLINE: {fileID: 0}
-  Tier3TowerOUTLINE: {fileID: 0}
-  Tier1SpikeOUTLINE: {fileID: 0}
-  Tier2SpikeOUTLINE: {fileID: 0}
-  Tier3SpikeOUTLINE: {fileID: 0}
-  Keep_SpawnLOCATION: {fileID: 1125106187}
-  Wall_SpawnLOCATION: []
-  Tower_SpawnLOCATION: []
-  Spike_SpawnLOCATION: []
   NightSky: {fileID: 0}
 --- !u!4 &1626003749
 Transform:
