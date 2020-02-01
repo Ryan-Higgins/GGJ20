@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     [Header("Game data")] 
     public int CurrentDay = 1;
 
+    public float TimeOfDay = 0;
     public int Currency;
 
     public int AmountOfFortifications;
@@ -29,5 +30,24 @@ public class GameManager : MonoBehaviour
     public Transform[] Wall_SpawnLOCATION; //All spawn locations for Walls
     public Transform[] Tower_SpawnLOCATION; // ^
     public Transform[] Spike_SpawnLOCATION; // ^ Same
+
+    [SerializeField] private GameObject NightSky;
     
+    public void Update()
+    {
+        TimeOfDay += 1 * Time.deltaTime;
+
+        if (TimeOfDay < 60)
+        {
+            Color tempColor = NightSky.GetComponent<SpriteRenderer>().color;
+            tempColor.a = tempColor.a  + 1 * Time.deltaTime / 100;
+            NightSky.GetComponent<SpriteRenderer>().color = tempColor;
+        } else if (TimeOfDay > 60 && TimeOfDay < 120)
+        {
+            Color tempColor = NightSky.GetComponent<SpriteRenderer>().color;
+            tempColor.a = tempColor.a - 1 * Time.deltaTime / 100;
+            NightSky.GetComponent<SpriteRenderer>().color = tempColor;
+        }
+        print(TimeOfDay);
+    }
 }
