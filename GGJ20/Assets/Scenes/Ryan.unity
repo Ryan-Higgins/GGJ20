@@ -5607,6 +5607,10 @@ MonoBehaviour:
   npcBool: 0
   CurrentDay: 1
   TimeOfDay: 0
+  CurrentTowerTier: 1
+  CurrentKeepTier: 1
+  CurrentSpikeTier: 1
+  CurrentWallTier: 1
   Currency: 0
   AmountOfFortifications: 0
   Tier1KeepOUTLINE: {fileID: 0}
@@ -10134,7 +10138,7 @@ PrefabInstance:
     - target: {fileID: 1993660468700615812, guid: 682dee384c1a397458de3ff6d041aa59,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.32
       objectReference: {fileID: 0}
     - target: {fileID: 1993660468700615812, guid: 682dee384c1a397458de3ff6d041aa59,
         type: 3}
