@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\rhino\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\rhino\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_GGJ20.1850153307.00" t="ExcludeRecursive" />
-    <e p="C:\Users\rhino\Documents\Repositeries\GGJ20\GGJ20" t="IncludeRecursive">
+    <e p="C:\Users\Keith\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Keith\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_GGJ20.663416729.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Keith\Desktop\GitRepos\GGJ20\GGJ20" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Attack.cs" t="Include" />
           <e p="BuildingTrigger.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
+          <e p="KeepBuildTrigger.cs" t="Include" />
           <e p="Managers" t="Include">
             <e p="GameManager.cs" t="Include" />
             <e p="NPCManager.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
           </e>
           <e p="Move.cs" t="Include" />
+          <e p="TowerBuildTrigger.cs" t="Include" />
           <e p="WallBuildTrigger.cs" t="Include" />
         </e>
       </e>
