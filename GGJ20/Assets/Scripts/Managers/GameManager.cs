@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
 
     public int AmountOfFortifications;
 
-    public Sprite Tier1KeepOUTLINE, Tier2KeepOUTLINE, Tier3KeepOUTLINE,
+    public GameObject Tier1KeepOUTLINE, Tier2KeepOUTLINE, Tier3KeepOUTLINE,
         Tier1WallOUTLINE, Tier2WallOUTLINE, Tier3WallOUTLINE,
         Tier1TowerOUTLINE, Tier2TowerOUTLINE, Tier3TowerOUTLINE,
         Tier1SpikeOUTLINE, Tier2SpikeOUTLINE, Tier3SpikeOUTLINE;
