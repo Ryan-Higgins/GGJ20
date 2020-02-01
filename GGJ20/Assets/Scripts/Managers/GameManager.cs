@@ -15,11 +15,17 @@ public class GameManager : MonoBehaviour
     [Header("Game data")] 
     public int CurrentDay = 1;
 
+    public int CurrentTowerTier = 1;
+    public int CurrentKeepTier = 1;
+    public int CurrentSpikeTier = 1;
+    public int CurrentWallTier = 1;
+    
     public int Currency;
 
     public int AmountOfFortifications;
 
-    public GameObject Tier1KeepOUTLINE, Tier2KeepOUTLINE, Tier3KeepOUTLINE,
+    public GameObject 
+        Tier1KeepOUTLINE, Tier2KeepOUTLINE, Tier3KeepOUTLINE,
         Tier1WallOUTLINE, Tier2WallOUTLINE, Tier3WallOUTLINE,
         Tier1TowerOUTLINE, Tier2TowerOUTLINE, Tier3TowerOUTLINE,
         Tier1SpikeOUTLINE, Tier2SpikeOUTLINE, Tier3SpikeOUTLINE;
