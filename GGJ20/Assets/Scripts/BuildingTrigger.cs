@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class BuildingTrigger : MonoBehaviour
 {
-    private GameManager _gameManager;
+   /* private GameManager _gameManager;
     public GameObject BuildingOutline;
 
     public bool isKeep, isWall, isSpike, isTower;
@@ -44,5 +44,5 @@ public class BuildingTrigger : MonoBehaviour
         {
             
         }
-    }
+    }*/
 }
