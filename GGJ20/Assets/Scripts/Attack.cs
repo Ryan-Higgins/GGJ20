@@ -18,8 +18,15 @@ public class Attack : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            hit = Physics2D.Raycast(transform.position, Vector2.right);
-            Debug.DrawRay(transform.position, Vector2.right, Color.red);
+            if (transform.localScale.x > 0)
+            {
+                hit = Physics2D.Raycast(transform.position, Vector2.right);
+                Debug.DrawRay(transform.position, Vector2.right, Color.red);
+            }else if (transform.localScale.x < 0)
+            {
+                hit = Physics2D.Raycast(transform.position, Vector2.left);
+                Debug.DrawRay(transform.position, Vector2.left, Color.red);
+            }
         } 
     }
 }
