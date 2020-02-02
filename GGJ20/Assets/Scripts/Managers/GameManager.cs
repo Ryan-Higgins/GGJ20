@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     [Header("Player data")]
     public bool PlayerIsAlive;
 
-    public float PlayerHealth = 100f;
+    public static float PlayerHealth = 100f;
 
     [Header("NPC data")]
     public bool npcBool;
@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public int currentWave = 1;
     
     [Header("Game data")]
-    public int CurrentDay = 1;
+    public static int CurrentDay = 1;
 
     public float TimeOfDay = 0;
     
@@ -62,6 +62,12 @@ public class GameManager : MonoBehaviour
             tempColor.a = tempColor.a - 1 * Time.deltaTime / 100;
             NightSky.GetComponent<SpriteRenderer>().color = tempColor;
         }
-        print(TimeOfDay);
+        //print(TimeOfDay);
+
+        if (TimeOfDay > 120)
+        {
+            CurrentDay++;
+            TimeOfDay = 0;
+        }
     }
 }

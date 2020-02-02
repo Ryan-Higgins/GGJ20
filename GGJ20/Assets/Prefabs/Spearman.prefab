@@ -28,6 +28,8 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 67559549502357706}
+  - {fileID: 67559548466341278}
+  - {fileID: 67559549385320690}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -140,7 +142,7 @@ Transform:
   m_LocalPosition: {x: -0.037199974, y: -0.21349502, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 67559549502357706}
+  m_Father: {fileID: 67559547861254567}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &67559548466341279
@@ -223,7 +225,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 67559549502357706}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &67559548983907611
 SpriteRenderer:
@@ -263,7 +265,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -8018080006785996947, guid: 3e6bbadc4f5ee7a4db728a7a1809e083,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -304,8 +306,8 @@ Transform:
   m_LocalPosition: {x: 0.061699867, y: -0.23249507, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 67559549502357706}
-  m_RootOrder: 4
+  m_Father: {fileID: 67559547861254567}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &67559549385320691
 SpriteRenderer:
@@ -387,10 +389,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 67559548296076255}
-  - {fileID: 67559548466341278}
   - {fileID: 67559548983907610}
   - {fileID: 67559549814515557}
-  - {fileID: 67559549385320690}
   m_Father: {fileID: 67559547861254567}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -474,7 +474,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 67559549502357706}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &67559549814515558
 SpriteRenderer:

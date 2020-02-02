@@ -39,4 +39,12 @@ public class Move : MonoBehaviour
         
         myRB.AddForce(moving * moveSpeed);
     }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Weapon"))
+        {
+            GameManager.PlayerHealth -= 25;
+        }
+    }
 }
