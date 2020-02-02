@@ -14,14 +14,14 @@ public class EnemySpawn : MonoBehaviour
     private int dayCount;
     public static int sideChoice;
     private int ranNum;
-    private static int enemyCount;
+    public static int enemyCount;
     public List<GameObject> spawners;
     
     // Start is called before the first frame update
     void Start()
     {
         dayCount = GameManager.CurrentDay;
-        ranNum = Random.Range(0, 3);
+        ranNum = Random.Range(0, 2);
         sideChoice = Random.Range(0, 2);
     }
 
@@ -46,16 +46,13 @@ public class EnemySpawn : MonoBehaviour
         {
             Instantiate(enemies[0], spawner);
             enemyCount++;
+            sideChoice = Random.Range(0, 2);
         }
         else if (ranNum == 1)
         {
             Instantiate(enemies[1], spawner);
             enemyCount++;
-        }
-        else if (ranNum == 2)
-        {
-            Instantiate(enemies[2], spawner);
-            enemyCount++;
+            sideChoice = Random.Range(0, 2);
         }
     }
 }

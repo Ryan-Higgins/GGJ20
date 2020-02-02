@@ -11,7 +11,13 @@ public class EnemyMove : MonoBehaviour
     private RaycastHit2D hit;
     private int layerMask = 1 << 8;
     private Animator myAnim;
+    public int health = 2;
 
+
+    void Awake()
+    {
+        keep = GameObject.Find("Keep");
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +27,7 @@ public class EnemyMove : MonoBehaviour
         temp.x *= direction.normalized.x;
         transform.localScale = temp;
         myAnim = GetComponent<Animator>();
+       
     }
 
     // Update is called once per frame
@@ -36,6 +43,12 @@ public class EnemyMove : MonoBehaviour
         else
         {
             myAnim.SetBool("Attack", true);
+        }
+
+        if (health <= 0)
+        {
+            EnemySpawn.enemyCount -= 1;
+            Destroy(gameObject);
         }
     }
 }

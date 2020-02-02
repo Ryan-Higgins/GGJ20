@@ -8,6 +8,7 @@ public class Move : MonoBehaviour
     private Rigidbody2D myRB;
     private float h;
     private float v;
+    private Animator myAnim;
 
     [SerializeField] private float moveSpeed = 10;
     
