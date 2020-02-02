@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993660468105057098}
   - component: {fileID: 1993660468105057109}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player_SpriteSheet_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993660468210426478}
   - component: {fileID: 1993660468210426473}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player_SpriteSheet_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,9 @@ GameObject:
   - component: {fileID: 1993660468700615809}
   - component: {fileID: 1993660468700615814}
   - component: {fileID: 1993660468700615808}
-  m_Layer: 0
+  - component: {fileID: 360130766}
+  - component: {fileID: 360130765}
+  m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,6 +275,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbe62a3059b7fa8439ed1ce3cef6c5ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!81 &360130766
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993660468700615813}
+  m_Enabled: 1
+--- !u!95 &360130765
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993660468700615813}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 879906c09f56d794db79769d10a91365, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1993660468845471856
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993660468845471859}
   - component: {fileID: 1993660468845471858}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player_SpriteSheet_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,7 +396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993660469138934118}
   - component: {fileID: 1993660469138934113}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player_SpriteSheet_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993660469660329878}
   - component: {fileID: 1993660469660329873}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player_SpriteSheet_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
